@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Members</h1>
+  
+<ul>
+  {% for x in mymembers %}
+  firstname:
+   {{ x.firstname }}<br>
+    lastname: {{ x.lastname }}<br>
+    phone:{{ x.phone}}<br>
+    branch:{{ x.branch}}<br>
+   email :{{ x.email}}<br>
+   grade:{{ x.grade}}<br>
+   marks:{{ x.marks}}<br>
+  {% endfor %}
+</ul>
+hi in html of sutdned
+
+</body>
+</html>
